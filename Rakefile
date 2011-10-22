@@ -21,6 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Adds the closest_fibonacci method to all Fixnums.}
   gem.email = "heath.lilley@gmail.com"
   gem.authors = ["Heath Lilley"]
+  gem.version = "1.0"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
