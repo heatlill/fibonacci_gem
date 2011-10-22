@@ -1,5 +1,4 @@
-require 'test/unit'
-require 'fibonacci'
+require_relative 'helper'
 
 class FibonacciTest < Test::Unit::TestCase
     def test_closest_fibonacci

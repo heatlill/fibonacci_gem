@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fibonacci"
   gem.homepage = "http://github.com/heatlill/fibonacci"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Adds the closest_fibonacci method to all Fixnums.}
+  gem.description = %Q{Adds the closest_fibonacci method to all Fixnums.}
   gem.email = "heath.lilley@gmail.com"
   gem.authors = ["Heath Lilley"]
   # dependencies defined in Gemfile
@@ -42,7 +42,7 @@ end
 
 task :default => :test
 
-require 'rake/rdoctask'
+require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
