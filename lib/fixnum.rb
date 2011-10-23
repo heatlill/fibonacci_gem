@@ -1,6 +1,6 @@
 class Fixnum
     def closest_fibonacci
-        array = [0]
+        array = []
         0.upto(self) do |val|
             if (val > 1)
                  tmp = array.last + array[-2]
@@ -9,7 +9,7 @@ class Fixnum
                  end
                  array << tmp 
             else
-                array << 1
+                array << val
             end
         end
         return array.last
